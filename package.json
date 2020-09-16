@@ -8,9 +8,24 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
+    "@nexus/schema": "^0.15.0",
+    "@prisma/cli": "^2.7.1",
+    "@prisma/client": "^2.7.1",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "apollo-link-schema": "^1.2.5",
+    "apollo-server-micro": "^2.17.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.11.0",
     "next": "latest",
+    "nexus-prisma": "^0.16.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "ts-node": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
